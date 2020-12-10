@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    background-color: #1470BE;
+}
+
+body { 
+  background: url(../images/home.gif) no-repeat center center fixed; 
+  background-size: 100% 100%;
+  padding: 0;
+}
+
+h1{
+	margin-top: 20px;
+	font-size: 45px;
+	color : white;
+    font-family: 'Lucida Calligraphy';
+    text-align: center;
+}
+
+h4{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn1{
+  background-color: orange; 
+  border: none;
+  width: 160px;
+  padding: 5px 5px;
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.btn1:hover {
+  background-color: #ffdf77;
+  color: #808080;
+  text-decoration: none;
+}

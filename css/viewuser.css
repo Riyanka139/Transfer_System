@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%
+}
+
+body {
+    background: url(../images/transfer1.gif) no-repeat center center fixed; 
+    background-size: 100% 100%;
+    padding: 0;
+}
+
+h3,h2{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.btn1{
+  background-color: orange; 
+  border: none;
+  width: 100px;
+  padding: 5px 5px;
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.btn1:hover {
+  background-color: #ffdf77;
+  color: #808080;
+  text-decoration: none;
+}
+
+.form-inline {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#my_table{
+	margin: 0 auto;
+	font-size: 18px;
+	border-style: groove;
+	background-color: #FFF4E7;
+    margin-bottom: 10%;
+}
+
+#my_table tr:hover {
+    background-color: #FFE8CB;
+}
+
+table.scrolldown tbody { 
+    height: 50px;  
+    overflow-y: auto; 
+    overflow-x: hidden;  
+} 
+
+th{
+	background-color:#FFC000; 
+}
+
+th,td{
+	text-align: center;
+    padding: 5px;
+}
+
+select{
+    margin:0 auto;
+    display: block;
+    width:150px;
+    height:35px;
+    font-size:20px;
+    font-family:Avanta Garde;
+    font-style: normal;
+    color: #696969;
+}
+
+.horizontal{
+    display: flex;
+    margin: 2% 0;
+    padding-left: 35%;
+}
+
+.amt{
+    color: white;
+    font-size: 30px;
+}
+
+input{
+	margin-left: 2%;
+	font-size: 16px;
+	padding: 4px 4px;
+	width: 90px;
+    height: 40px;
+}
+
+.btn2{
+  background-color: orange; 
+  border: none;
+  padding: 12px 20px;
+  text-align: center;
+  border-radius: 8px;
+  display: block;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 2%;
+}
+
+.btn2:hover {
+  background-color: #ffdf77;
+  color: #808080;
+}
